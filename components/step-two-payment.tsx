@@ -16,9 +16,9 @@ export function StepTwoPayment({ onSubmit }: StepTwoPaymentProps) {
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   const accountDetails = {
-    accountNumber: "6715392521",
-    bankName: "Moniepoint MFB",
-    accountName: "OLUWAFEMI SATURDAY ARUWAYO",
+    accountNumber: "5000337185",
+    bankName: "assetmatrix MFB",
+    accountName: " SATURDAY ARUWAYO",
   }
 
   const copyToClipboard = async (text: string, field: string) => {
